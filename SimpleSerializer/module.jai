@@ -1,3 +1,4 @@
+#import "Basic";
 
 #scope_file
 NewResizableArray :: (count: s64, $T: Type, $initialized := true, allocator: Allocator = .{}, alignment: s32 = -1) -> [..]T {
